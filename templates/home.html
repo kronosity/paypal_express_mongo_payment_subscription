@@ -1,0 +1,76 @@
+<style>
+ html {
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    background-size: 100% 100%;
+    background-image: url("/img/trader1.jpg");
+ }
+
+p {
+    padding:5px;
+    background-color : rgba(1, 1, 1, 0.5); 
+}
+
+ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(1,1,1, 0.5);
+}
+
+h2, h3 {
+    color: #15ec1d;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 5px; 
+    color: white;
+    background-color: #1d1d1d;
+}
+
+.btn:hover {
+    color:green;
+}
+
+
+
+
+
+</style>
+
+<html>
+<div>
+    <hr>
+    <h2>Trading Coach</h2>
+    <hr>
+
+    <form method = "POST" action="/buysingle">
+    <h3>Buy Trading coaching Session </h3>
+    £199
+    <br/>
+    Quantity:
+    <input type="number" name="Quantity" value="1" style="width: 50px;" class="btn" />
+    <input type="submit" value="Purchase" class="btn" />
+    <br/>
+    <p>This plan includes everything you need to get you started in trading</p>
+    <p>This plan includes</p> 
+    <ul>
+        <li> 5 one-on-one Coaching Sessions</li>
+        <li> 2 Trading Strategies</li>
+        <li> 1 Trading Signal</li>
+    </ul> 
+</form> 
+
+<form method="POST" action="/buyrecurring">
+    <h3>Ongoing Coaching, Signals & Market Analysis</h3>
+    £99 a month
+    <input type="submit" value="Purchase" class="btn" />
+    <br />
+    <p>This package includes Ongoing one-on-one Coaching, Market Analysis and Trading Signals.
+</form>
+
+
+</div>
+
+</html>

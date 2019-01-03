@@ -1,0 +1,22 @@
+//Basic template paypal payments backend for Node/Express with MongoDb
+//--------------------------------------------------------------------
+//Single & recurring payments
+//Create MongoDB service before running
+//Create Test account with paypal dev
+
+
+//config.js
+//---------
+//Enter your paypal config details  
+
+//mongoService.js
+//---------------
+//change your mongo config details
+
+//templates/home.html 
+//--------------------
+//basic Landing page for testing
+
+//server.js 
+//------------
+//res.json(err) is for dev only not production.  
