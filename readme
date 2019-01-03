@@ -1,4 +1,4 @@
-//Basic template paypal payments backend for Node/Express with MongoDb
+//Basic template paypal payments backend for JS Node/Express with MongoDb
 //--------------------------------------------------------------------
 //Single & recurring payments
 //Create MongoDB service before running
