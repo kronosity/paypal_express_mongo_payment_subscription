@@ -2,7 +2,7 @@
 //--------------------------------------------------------------------
 //Single & recurring payments
 //Create MongoDB service before running
-//Create Test account with paypal dev
+//Create Test account with develpoer.paypal.com
 
 
 //config.js
